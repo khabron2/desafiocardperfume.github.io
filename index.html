@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./css/estilo.css">
   <title>Frontend Mentor | Product preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,22 +15,53 @@
   </style>
 </head>
 <body>
+      <main class="tarjeta">
+            <section class="tarjeta__primera-section">
+                <img class="terjeta__primera-section__imagen" src="./images/image-product-mobile.jpg" alt="imagen">
+            </section>
+            
+            <section class="tarjeta__segunda-section">
+                <p class="tarjeta__segunda-section__titulo">PERFUME</p>
+                <h2 class="tarjeta__segunda-section__nombre">Gabrielle Essence Eau De Parfum</h2>
+                <p class="tarjeta__segunda-section__descripcion">  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+                  Perfumer-Creator for the House of CHANEL.</p>
+              <div class="tarjeta__segunda-section__precios">
+                  <p class="tarjeta__segunda-section__preciodescuento">$149.99</p>
+                  <p class="tarjeta__segunda-section__precioreal">$169.99</p>
 
-  Preview
+              <button class="tarjeta__segunda-section__boton">
+                <img src="./images/icon-cart.svg" alt="iconocompra">
+                Add to Cart
+              </button>    
+              </div>
+            
+                </section>
+            
 
-  Gabrielle Essence Eau De Parfum
 
-  A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-  Perfumer-Creator for the House of CHANEL.
 
-  $149.99
-  $169.99
+      </main>
 
-  Add to Cart
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Ivan Ahumada</a>.
   </div>
 </body>
 </html>
