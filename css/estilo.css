@@ -76,6 +76,15 @@ color: var(--Dark-grayish-blue);
     background-color: var(--Dark-cyan);
     color: var(--White);
     font-size: 16px;
+    margin-bottom: 24px;
+    border-radius: 12px;
+    border: none;
+}
+
+.tarjeta__segunda-section__boton:hover {
+    cursor: pointer;
+    background-color:  green;
+
 }
 
 .tarjeta__segunda-section__precioreal{
@@ -89,6 +98,30 @@ color: var(--Dark-grayish-blue);
     font-family: 'Fraunces', serif;
     font-size: 30px;
 }
+
+@media (min-width:650px ) {
+    .tarjeta{
+        width: 600px;
+        height: 450px;
+        display: flex;
+        margin: 175px auto;
+    }
+    .terjeta__primera-section{
+        width: 300px;
+    }
+    .terjeta__primera-section__imagen{
+        content: url(../images/image-product-desktop.jpg);
+    }
+
+    .tarjeta__segunda-section{
+        width: 300px;
+    }
+
+    .tarjeta__segunda-section__boton{
+        width: 220px;
+    }
+}
+
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
