@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
 :root{
 --Dark-cyan: hsl(158, 36%, 37%);
 --Cream: hsl(32, 94%, 82%);
@@ -5,16 +7,16 @@
 --Dark-grayish-blue: hsl(228, 12%, 48%);
 --White: hsl(0, 22%, 93%);
 background-color: var(--Cream)
-
+}
+body{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
 }
 
-
 *{
-
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-size: 14px;
 }
 
 .tarjeta{
@@ -25,6 +27,7 @@ background-color: var(--Cream)
     margin-top: 30px;
     border-radius: 12px;
     overflow: hidden;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .terjeta__primera-section__imagen{
@@ -33,30 +36,33 @@ background-color: var(--Cream)
 }
 
 .tarjeta__segunda-section__titulo{
+    font-family: 'Montserrat', sans-serif;
 margin: 28PX 30px 20px 30px;
+letter-spacing: 8px;
+color: var(--Dark-grayish-blue);
 }
 
 .tarjeta__segunda-section__nombre{
     margin: 0px 30px 20px 30px;
     font-family: 'Fraunces', serif;
-    font-size: 35px;
-    
+    font-size: 30px;
 }
 
 .tarjeta__segunda-section__descripcion{
     margin: 0 30px 20px 30px;
+    color: var(--Dark-grayish-blue);
 }
 
 .tarjeta__segunda-section__precios{
     display: flex;
     align-items: center;
+    font-family: 'Fraunces', serif;
 }
 
 
-.tarjeta__segunda-section__preciodescuento{
+.tarjeta__segunda-section__precios {
     margin: 0 30px 0px 30px;
-    font-family: 'Fraunces', serif;
-    font-size: 35px;
+
     color: var(--Dark-cyan);
 }
 
@@ -68,8 +74,21 @@ margin: 28PX 30px 20px 30px;
     display: block;
     align-items: center;
     background-color: var(--Dark-cyan);
+    color: var(--White);
+    font-size: 16px;
 }
 
 .tarjeta__segunda-section__precioreal{
+    margin-left: 20px;
     text-decoration: line-through;
+    font-family: 'Fraunces', serif;
+    color: var(--Dark-grayish-blue);
 }
+
+.tarjeta__segunda-section__preciodescuento{
+    font-family: 'Fraunces', serif;
+    font-size: 30px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
