@@ -8,11 +8,9 @@ background-color: var(--Cream)
 
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
 
 *{
-    /*font-family: 'Fraunces', serif;*/
-    font-family: 'Montserrat', sans-serif;
+
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -42,6 +40,7 @@ margin: 28PX 30px 20px 30px;
     margin: 0px 30px 20px 30px;
     font-family: 'Fraunces', serif;
     font-size: 35px;
+    
 }
 
 .tarjeta__segunda-section__descripcion{
@@ -58,6 +57,7 @@ margin: 28PX 30px 20px 30px;
     margin: 0 30px 0px 30px;
     font-family: 'Fraunces', serif;
     font-size: 35px;
+    color: var(--Dark-cyan);
 }
 
 .tarjeta__segunda-section__boton{
@@ -67,4 +67,9 @@ margin: 28PX 30px 20px 30px;
     height: 47px;
     display: block;
     align-items: center;
+    background-color: var(--Dark-cyan);
+}
+
+.tarjeta__segunda-section__precioreal{
+    text-decoration: line-through;
 }
