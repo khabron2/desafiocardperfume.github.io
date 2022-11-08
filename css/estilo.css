@@ -1,20 +1,22 @@
 :root{
 --Dark-cyan: hsl(158, 36%, 37%);
---Cream: hsl(30, 38%, 92%);
+--Cream: hsl(32, 94%, 82%);
 --Very-dark-blue: hsl(212, 21%, 14%);
 --Dark-grayish-blue: hsl(228, 12%, 48%);
---White: hsl(0, 86%, 35%);
+--White: hsl(0, 22%, 93%);
+background-color: var(--Cream)
+
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
 
 *{
-    font-family: 'Fraunces', serif;
+    /*font-family: 'Fraunces', serif;*/
     font-family: 'Montserrat', sans-serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    background-color: var(--Cream)
+    font-size: 14px;
 }
 
 .tarjeta{
@@ -23,9 +25,46 @@
     background-color: var(--White);
     margin: auto;
     margin-top: 30px;
+    border-radius: 12px;
+    overflow: hidden;
 }
 
 .terjeta__primera-section__imagen{
     width: 100%;
     
+}
+
+.tarjeta__segunda-section__titulo{
+margin: 28PX 30px 20px 30px;
+}
+
+.tarjeta__segunda-section__nombre{
+    margin: 0px 30px 20px 30px;
+    font-family: 'Fraunces', serif;
+    font-size: 35px;
+}
+
+.tarjeta__segunda-section__descripcion{
+    margin: 0 30px 20px 30px;
+}
+
+.tarjeta__segunda-section__precios{
+    display: flex;
+    align-items: center;
+}
+
+
+.tarjeta__segunda-section__preciodescuento{
+    margin: 0 30px 0px 30px;
+    font-family: 'Fraunces', serif;
+    font-size: 35px;
+}
+
+.tarjeta__segunda-section__boton{
+    margin: auto;
+    margin-top: 20px;
+    width: 295px;
+    height: 47px;
+    display: block;
+    align-items: center;
 }
